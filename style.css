@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header,
+.section-one,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.section-one .section-content,
+.section-two .section-content,
+.section-three .section-content,
+.section-four .section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 1500px;
+}
+
+.section-one img {
+  height: 300px;
+  width: auto;
+}
+
+.section-two .section-content {
+  flex-direction: column;
+}
+
+.section-two ul {
+  display: flex;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+}
+
+.section-three .section-content {
+  flex-direction: column;
+}
+
+.section-three p {
+  align-self: flex-end;
+}
+
+.section-three blockquote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.section-four .section-content {
+  background-color: #3882f6;
+  flex-basis: 1000px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

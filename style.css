@@ -69,13 +69,17 @@ ul {
   flex-basis: 800px;
 }
 
+.section-two {
+  padding: 50px 0 140px 0;
+}
+
 .section-one .section-content {
   gap: 50px;
   padding: 100px;
   flex-basis: 1500px;
 }
 
-.section-one #placeholder {
+.section-one .placeholder {
   height: 200px;
   width: 450px;
   background: #808890;
@@ -115,10 +119,37 @@ ul {
 
 .section-two .section-content {
   flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
 }
 
 .section-two ul {
   display: flex;
+  flex 1;
+  justify-content: space-between;
+}
+
+.section-two li {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  flex-basis: 150px;
+  align-items: center;
+}
+
+.section-two li p {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+
+.section-two .section-content .placeholder {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0069ff;
+  height: 125px;
+  width: 125px;
+  flex: 0 0 auto;
 }
 
 .section-three {

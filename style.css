@@ -156,6 +156,10 @@ ul {
   background-color: #e5e7eb;
 }
 
+.section-three {
+  padding: 60px;
+}
+
 .section-three .section-content {
   flex-direction: column;
 }
@@ -167,6 +171,9 @@ ul {
 .section-three blockquote {
   font-size: 36px;
   color: #1f2937;
+  margin-bottom: 0;
+  align-self: flex-end;
+  margin-right: auto;
 }
 
 .section-four .section-content {
